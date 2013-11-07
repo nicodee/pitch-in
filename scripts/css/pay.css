@@ -1,0 +1,118 @@
+{% load staticfiles %}
+.pledge-title {
+	text-align: center;
+	margin-top: 0px;	
+	border-bottom: none;
+}
+
+#pledge-title-container .pledge-title  h4  a,
+#pledge-title-container .pledge-title  h4  a:hover {
+	text-decoration: none;
+	color: #777;
+}
+
+#pledge-title-container {
+	color:#777;
+}
+
+#pledge-title-container .pledge-title  h4  a:hover {
+	color: #000;
+}
+
+#pay-content #pay-intro.row,
+#pay-content #pay-title-intro.row,
+#pay-content #pay-card-banner,
+#pay-content #pay-card-banner .col-lg-6.pull-left,
+#pay-content #pay-card-details,
+#pay-content #pay-card-details .row {
+	border: none;
+	padding-left: 0px;
+}
+
+#pay-content #pay-card-details,
+#pay-content #pay-card-details .row {
+	padding-top: 0px;
+}
+
+#pay-content #pay-card-details .control-label,
+#pay-content #pay-card-details input{
+	text-align: left;
+	font-weight: normal;
+	font-size: 13px;	
+}
+
+#pay-content #pay-card-details input,
+#pay-content #pay-card-details input:focus{
+	box-shadow: none;	
+}
+
+#pay-content {
+	border: 1px solid #f8f8f8;
+	border-radius: 4px;
+	padding: 10px;
+	margin-bottom: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#pay-content {
+	border: 1px solid #f8f8f8;
+}
+
+#pay-content .col-md-8 .row,
+#pay-side-info .row {
+	padding: 10px;
+}
+
+#pay-content .row {
+	border: 1px solid #f8f8f8;
+	border-radius: 4px;
+	margin: 5px;
+	padding: 10px;
+}
+
+#pay-intro p{
+	font-size: 20px;
+	margin-bottom: 0px;
+}
+
+#pay-continue a {
+	padding: 5px 25px 5px 25px;
+	font-size: 25px;
+	color: rgba(250, 250, 250, 1);
+	background-color: rgba(127, 180, 68, 0.7);
+}
+
+#pay-continue a:hover{
+	color: rgba(250, 250, 250, 1);
+	background-color: rgba(114, 129, 98, 0.7);
+}
+
+.amount-pledged-title,
+.amount-pledged-reward-title {
+	font-size: 11px;
+}
+
+.amount-pledged,
+.amount-pledged-reward {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.amount-pledged-edit {
+	text-align: right;
+	font-size: 12px;
+}
+
+.card-type-list li:hover{
+	background-color: #fff;
+}
+
+.card-type-list li {
+	padding: 0px;
+}
+
+.card-type-list li img {
+	height: 32px;
+	width: 43px;
+}

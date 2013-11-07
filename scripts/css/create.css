@@ -1,0 +1,95 @@
+#project-content,
+#project-content-step {
+	border: 1px solid #f8f8f8;
+	border-radius: 4px;
+	padding: 10px;
+	margin-bottom: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#project-content .row {
+	border: 1px solid #f8f8f8;
+	border-radius: 4px;
+	margin: 5px;
+}
+
+#create-container .col-lg-3 .row {
+	border-top: none;
+	border-left: none;
+	border-bottom: none;
+	text-align: right;
+	border-radius: 0px;
+	padding-right: 0px;
+	/*position: fixed;*/
+}
+
+#create-container .col-lg-3 .row ul li a {
+	border: none;
+	border-radius: 0px;
+	color: rgb(34, 167, 179);
+}
+
+#create-container .col-lg-3 .row ul {
+	display: inline-block;
+}
+
+#create-container .col-lg-3 .row ul li {
+	list-style: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.create-nav-label {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-weight: bold;
+}
+
+#create-container .col-lg-3 .row ul li a.active {
+	color: #fff;
+	background: rgb(34, 167, 179);
+	border-color: #adadad;
+}
+
+#create-container .col-lg-3 .row ul li a h4 {
+	font-size: 13px;
+}
+
+.btn.btn-default.next,
+.btn.btn-default.done {
+	color : rgb(34, 167, 179);
+	border: none;
+}
+
+.btn.btn-default.next:hover,
+.btn.btn-default.done:hover {
+	background-color : rgb(34, 167, 179);
+	color: #fff;
+}
+#create-container .col-lg-3 .row ul li a.active .text-muted {
+	color: #fff;
+}
+
+.form-control,
+.form-control:focus {
+	box-shadow: none;
+}
+
+.reward-item {
+	border: 1px solid #eee;
+	padding: 10px;
+	border-radius: 3px;
+	background: #f8f8f8;
+	margin-bottom: 10px;
+}
+
+.remove-reward-item:hover{
+	color: red;
+	cursor: pointer;
+}
+
+.form-horizontal .control-label {
+	font-weight: normal;
+	font-size: 13px;
+}

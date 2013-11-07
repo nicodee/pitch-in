@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Profile</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="scripts/bootstrap/dis/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="scripts/css/footer.css" rel="stylesheet">
+    <link href="scripts/css/profile.css" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheets/font-awesome.min.css">    
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="scripts/bootstrap/assets/js/html5shiv.js"></script>
+      <script src="scripts/bootstrap/assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Wrap all page content here -->
+    <div id="wrap">
+
+      <!-- Fixed navbar -->
+      <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Pitch.In</a>
+          </div>
+          <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="/discover">Discover</a></li>
+              <li><a href="/create">Create</a></li>
+              <li class="dropdown active">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  <span><img src="scripts/images/profile_picture.jpg" alt=""></span> &nbsp;&nbsp;Nicodemus  
+                  <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="/profile">Profile</a></li>
+<!--                   <li><a href="#">Backed projects</a></li>
+                  <li><a href="#">Favorite projects</a></li>
+                  <li class="divider"></li>
+                  <li class="dropdown-header">Nav header</li>
+                  <li><a href="#">Settings</a></li> -->
+                  <li><a href="#">Log out</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+
+      <!-- Begin page content -->
+      <div class="container">
+        <div class="row" id="create-container">
+          <div class="col-lg-2">
+            <div class="row" id="project-content">
+              <ul id="create-menu">
+                <li class="create-nav-label">
+                  <a  class="btn btn-default zero active " data-create-step="0">
+                    <h4>Backed projects
+                      <i class="fa fa-angle-right text-muted"></i>
+                    </h4>
+                  </a>
+                </li>
+                <li>
+                  <a  class="btn btn-default one" data-create-step="1">
+                    <h4>Created projects
+                      <i class="fa fa-angle-right text-muted"></i>
+                    </h4>
+                  </a>
+                </li>
+                <li>
+                  <a  class="btn btn-default two" data-create-step="2">
+                    <h4>Favorite projects
+                      <i class="fa fa-angle-right text-muted"></i>
+                    </h4>
+                  </a>
+                </li>
+                <li>
+                  <a  class="btn btn-default three" data-create-step="3">
+                    <h4>Comments
+                      <i class="fa fa-angle-right text-muted"></i>
+                    </h4>
+                  </a>
+                </li>
+                <li>
+                  <a  class="btn btn-default four" data-create-step="4">
+                    <h4>Settings
+                      <i class="fa fa-angle-right text-muted"></i>
+                    </h4>
+                  </a>
+                </li>
+              </ul>
+            </div> 
+          </div>
+          <div class="col-lg-9 col-lg-offset-1" id="create-main-container">
+            <div class="row 0 active" id="profile-content-step">
+              <a class="btn btn-default" id="0">
+                <h4>0</h4>
+              </a>  
+              <div class="row profile-row">
+                <div class="col-sm-4">
+                    <a href="#" class="thumbnail">
+                      <img data-src="holder.js/260x180" alt="260x180" style="width: 260px; height: 180px;" src="scripts/images/smile.jpg">
+                    </a>
+                    <p>
+                      <strong><a href="">Project Name</a></strong>
+                      <br>
+                      <span>by Project creators name</span>
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                    <a href="#" class="thumbnail">
+                      <img data-src="holder.js/260x180" alt="260x180" style="width: 260px; height: 180px;" src="scripts/images/shades.png">
+                    </a>
+                    <p>
+                      <strong><a href="">Project Name</a></strong>
+                      <br>
+                      <span>by Project creators name</span>
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                    <a href="#" class="thumbnail">
+                      <img data-src="holder.js/260x180" alt="260x180" style="width: 260px; height: 180px;" src="scripts/images/plane.png">
+                    </a>
+                    <p>
+                      <strong><a href="">Project Name</a></strong>
+                      <br>
+                      <span>by Project creators name</span>
+                    </p>
+                </div>
+              </div>
+            </div>                
+
+            <div class="row hidden 1" id="profile-content-step">
+              <a class="btn btn-default" id="1">
+                <h4>1</h4>
+              </a>  
+              <div class="row profile-row">
+                <div class="col-sm-4">
+                    <a href="#" class="thumbnail">
+                      <img data-src="holder.js/260x180" alt="260x180" style="width: 260px; height: 180px;" src="scripts/images/causes.png">
+                    </a>
+                    <p>
+                      <strong><a href="">Project Name</a></strong>
+                      <br>
+                      <span>by Project creators name</span>
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                    <a href="#" class="thumbnail">
+                      <img data-src="holder.js/260x180" alt="260x180" style="width: 260px; height: 180px;" src="scripts/images/plane.png">
+                    </a>
+                    <p>
+                      <strong><a href="">Project Name</a></strong>
+                      <br>
+                      <span>by Project creators name</span>
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                    <a href="#" class="thumbnail">
+                      <img data-src="holder.js/260x180" alt="260x180" style="width: 260px; height: 180px;" src="scripts/images/shades.png">
+                    </a>
+                    <p>
+                      <strong><a href="">Project Name</a></strong>
+                      <br>
+                      <span>by Project creators name</span>
+                    </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row hidden 2" id="profile-content-step">
+              <a class="btn btn-default" id="3">
+                <h4>2</h4>
+              </a>  
+              <div class="row profile-row">
+                <div class="col-sm-4">
+                    <a href="#" class="thumbnail">
+                      <img data-src="holder.js/260x180" alt="260x180" style="width: 260px; height: 180px;" src="scripts/images/xavier/7.jpg">
+                    </a>
+                    <p>
+                      <strong><a href="">Project Name</a></strong>
+                      <br>
+                      <span>by Project creators name</span>
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                    <a href="#" class="thumbnail">
+                      <img data-src="holder.js/260x180" alt="260x180" style="width: 260px; height: 180px;" src="scripts/images/xavier/6.jpg">
+                    </a>
+                    <p>
+                      <strong><a href="">Project Name</a></strong>
+                      <br>
+                      <span>by Project creators name</span>
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                    <a href="#" class="thumbnail">
+                      <img data-src="holder.js/260x180" alt="260x180" style="width: 260px; height: 180px;" src="scripts/images/xavier/3.jpg">
+                    </a>
+                    <p>
+                      <strong><a href="">Project Name</a></strong>
+                      <br>
+                      <span>by Project creators name</span>
+                    </p>
+                </div>
+              </div>
+            </div>  
+
+            <div class="row hidden 3" id="profile-content-step">
+              <a class="btn btn-default" id="3">
+                <h4>3</h4>
+              </a>
+            </div> 
+
+            <div class="row hidden 4" id="profile-content-step">
+              <a  class="btn btn-default" id="4">
+                <h4>4</h4>
+              </a>
+            </div> 
+            <div class="row hidden 5" id="profile-content-step">
+              <a  class="btn btn-default" id="5">
+                <h4>5</h4>
+              </a>
+            </div>        
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+    
+
+    <div id="footer">
+      <div class="container">
+        <ul class="site-footer-links text-muted credit">          
+          <li>&copy; 2013 <span title="">Pitch.In</span></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Security</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </div>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="scripts/bootstrap/assets/js/jquery.js"></script>
+    <script src="scripts/bootstrap/dis/js/bootstrap.min.js"></script>    
+    <script src="scripts/js/pages/profile.js"></script>
+  </body>
+</html>

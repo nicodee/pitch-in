@@ -1,0 +1,60 @@
+#project-content,
+#profile-content-step {
+	border: 1px solid #f8f8f8;
+	border-radius: 4px;
+	padding: 20px;
+	margin-bottom: 50px;
+}
+
+#profile-content-step{
+	border: none;
+}
+#project-content .row {
+	border: 1px solid #f8f8f8;
+	border-radius: 4px;
+	margin: 5px;
+}
+
+.profile-row .col-sm-4 {
+	margin-top: 20px;
+}
+#create-container .col-lg-2 .row {
+	border-top: none;
+	border-left: none;
+	border-bottom: none;
+	text-align: right;
+	border-radius: 0px;
+	padding-right: 0px;
+}
+
+#create-container .col-lg-2 .row ul li a {
+	border: none;
+	border-radius: 0px;
+}
+
+#create-container .col-lg-2 .row ul li a h4 {
+	font-size: 13px;	
+}
+
+#create-container .col-lg-2 .row ul {
+	display: inline-block;
+}
+
+#create-container .col-lg-2 .row ul li {
+	list-style: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.create-nav-label {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-weight: bold;
+}
+
+#create-container .col-lg-2 .row ul li a.active,
+#create-container .col-lg-2 .row ul li a.btn.active {
+	color: #000;
+	border-color: #adadad;
+	box-shadow: none;
+}

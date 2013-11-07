@@ -1,0 +1,111 @@
+#pledge-content #pledge-intro.row,
+#pledge-content #pledge-amount.row,
+#pledge-content #reward-banner,
+#pledge-content #reward-items {
+	border: none;
+	padding-left: 0px;
+}
+
+#pledge-content #reward-items {
+	margin: 0px;
+	padding-top: 0px;
+}
+
+#pledge-content #reward-items .row:hover,
+#pledge-content #reward-items .row.active {
+	cursor: pointer;
+	color: #2B2828;
+	background-color: rgba(206, 218, 193, 0.7);
+}
+
+.pledge-title {
+	text-align: center;
+	margin-top: 0px;	
+	border-bottom: none;
+}
+
+#pledge-title-container .pledge-title  h4  a,
+#pledge-title-container .pledge-title  h4  a:hover {
+	text-decoration: none;
+	color: #777;
+}
+
+#pledge-title-container {
+	color:#777;
+}
+
+#pledge-title-container .pledge-title  h4  a:hover {
+	color: #000;
+}
+
+
+#pledge-content {
+	border: 1px solid #f8f8f8;
+	border-radius: 4px;
+	padding: 10px;
+	margin-bottom: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#pledge-content,
+#pledge-amount .row {
+	border: 1px solid #f8f8f8;
+}
+
+#pledge-amount .row
+#pledge-content .col-md-8 .row,
+#pledge-amount.row,
+#pledge-side-info .row {
+	padding: 10px;
+}
+
+#pledge-content .row {
+	border: 1px solid #f8f8f8;
+	border-radius: 4px;
+	margin: 5px;
+	padding: 10px;
+}
+
+#pledge-amount .col-lg-6 {
+	padding: 0px;
+}
+
+#pledge-amount .col-lg-6:nth-child(2){
+	padding-left: 10px;
+}
+
+#pledge-amount input {
+	width: 100%;
+	height: 50px;
+	border-left: none;
+	box-shadow: none;
+}
+
+#pledge-amount input:focus {
+	border-color: #ccc;
+	box-shadow: none;
+	outline: 0;
+}
+
+#pledge-amount .input-group-addon{
+	background-color: #fff;
+	font-size: 36px;
+}
+
+#pledge-intro p{
+	font-size: 20px;
+	margin-bottom: 0px;
+}
+
+#pledge-continue a {
+	padding: 5px 25px 5px 25px;
+	font-size: 25px;
+	color: rgba(250, 250, 250, 1);
+	background-color: rgba(127, 180, 68, 0.7);
+}
+
+#pledge-continue a:hover{
+	color: rgba(250, 250, 250, 1);
+	background-color: rgba(114, 129, 98, 0.7);
+}

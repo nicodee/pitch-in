@@ -1,0 +1,32 @@
+application: pitch-in-app
+version: 3
+runtime: python27
+api_version: 1
+threadsafe: yes
+
+handlers:
+- url: /favicon\.ico
+  static_files: statics/favicon.ico
+  upload: statics/favicon\.ico
+
+- url: /media
+  static_dir: media
+
+- url: /stylesheets
+  static_dir: stylesheets
+
+- url: /images
+  static_dir: images
+
+- url: /scripts
+  static_dir: scripts
+
+- url: .*
+  script: pitch-in-app.app
+
+libraries:
+- name: webapp2
+  version: latest
+
+- name: jinja2
+  version: latest

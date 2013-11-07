@@ -1,0 +1,201 @@
+<!DOCTYPE html5>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Pitch.In</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="scripts/bootstrap/dis/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="scripts/css/footer.css" rel="stylesheet">
+    <link href="scripts/css/index.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="scripts/bootstrap/assets/js/html5shiv.js"></script>
+      <script src="scripts/bootstrap/assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div id="wrap">
+     <!-- Fixed navbar -->
+      <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Pitch.In</a>
+          </div>
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-left"> 
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="/discover">Discover</a></li>
+              <li><a href="/create">Create</a></li>     
+              <li><a data-toggle="modal" href="#sign-in-Modal">Sign in</a></li>
+              <li><a data-toggle="modal" href="#sign-up-Modal">Signup</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+
+      <!-- Main jumbotron for call to action -->
+      <div class="jumbotron">
+        <div class="container">
+          <div class="col-lg-6">
+            <h1>Hello, world!</h1>
+            <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+            <p><a class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+          </div>
+          <div class="col-lg-6">
+               <a href="#" class="thumbnail">
+                <img data-src="" alt="..." src="scripts/images/steelo.jpg">
+              </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- </div> --> <!-- /container -->
+      <div class="container index" id="content">
+        <div class="row">
+
+          <h1>Why we do what we do?</h1>
+          <p>Note the lack of the which disables the zooming aspect of sites in mobile devices. In addition, we reset our container's width and are basically good to go.</p>
+          <p>As a heads up, the navbar component is rather tricky here in that the styles for displaying it are rather specific and detailed. Overrides to ensure desktop styles display are not as performant or sleek as one would like. Just be aware there may be potential gotchas as you build on top of this example when using the navbar.</p>
+
+        </div> <!-- /row -->
+
+        <div class="row">
+
+          <h1>How we do what we do</h1>
+          <p>Note the lack of the which disables the zooming aspect of sites in mobile devices. In addition, we reset our container's width and are basically good to go.</p>
+          <p>As a heads up, the navbar component is rather tricky here in that the styles for displaying it are rather specific and detailed. Overrides to ensure desktop styles display are not as performant or sleek as one would like. Just be aware there may be potential gotchas as you build on top of this example when using the navbar.</p>
+
+        </div> <!-- /row -->        
+      </div> <!-- /container -->
+
+    </div>
+
+    <div id="footer">
+      <div class="container">
+        <ul class="site-footer-links text-muted credit">          
+          <li>&copy; 2013 <span title="">Pitch.In</span></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Security</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Login Modal -->
+    <div class="modal fade" id="sign-in-Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title text-muted">Sign in</h4>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row">
+                <form accept-charset="UTF-8" role="form">
+                  <fieldset>
+                    <div class="form-group">
+                      <input class="form-control" placeholder="Email" name="email" type="email" required="true">
+                    </div>
+                    <div class="form-group">
+                      <input class="form-control" placeholder="Password" name="password" type="password" value="">
+                    </div>
+                    <div class="checkbox">
+                        <label class="text-muted">
+                          <input name="remember" type="checkbox" value="Remember Me"> Remember Me
+                        </label>
+                    </div>
+                  </fieldset>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">            
+            <a href="/profile"><button type="button" class="btn btn-success">Login</button></a>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <!-- Signup Modal -->
+    <div class="modal fade" id="sign-up-Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title text-muted">Signup</h4>
+          </div>
+          <div class="modal-body">            
+            <div class="container">
+              <div class="row">
+                <form accept-charset="UTF-8" role="form">
+                  <fieldset>   
+
+                    <div class="form-group">
+                      <div class="col-lg-6">
+                        <input class="form-control" placeholder="First Name" name="firstname" type="text">
+                      </div>
+                      <div class="col-lg-6">
+                        <input class="form-control" placeholder="Last Name" name="lastname" type="text">
+                      </div>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="form-group">
+                      <div class="col-lg-12">
+                        <input class="form-control" placeholder="Email" name="email" type="email" required="true">
+                      </div>                        
+                    </div>
+                    <div class="form-group">
+                      <div class="col-lg-12">
+                        <input class="form-control" placeholder="Password" name="password" type="password" value="">
+                      </div>                        
+                    </div>
+                    <div class="form-group">
+                      <div class="col-lg-12">
+                        <input class="form-control" placeholder="Confirm password" name="password-confirm" type="password" value="">
+                      </div>                        
+                    </div>
+                    <div class="checkbox terms">
+                      <label  class="text-muted">
+                        <input name="remember" type="checkbox" value="Remember Me">By signing up, you agree to our terms of use and privacy policy
+                      </label>
+                    </div>
+
+                  </fieldset>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <!-- <button class="btn btn-primary" id="facebook_login">Login using Facebook</button> -->
+            <a href="/profile"><button type="button" class="btn btn-success">Sign up</button></a>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="scripts/bootstrap/assets/js/jquery.js"></script>
+    <script src="scripts/bootstrap/dis/js/bootstrap.min.js"></script>
+  </body>
+</html>

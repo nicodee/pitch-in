@@ -1,0 +1,88 @@
+.thumbnails {
+	list-style: none;
+}
+
+.thumbnails > li {
+	margin-bottom: 40px;
+}
+
+#projects-list {
+	padding-top: 0px;
+}
+
+#wrap > #projects-list{
+  padding-top: 10px;
+}
+
+#projects-nav{
+	text-decoration: none;
+	text-align: center;
+	padding-top: 30px;
+}
+
+#projects-nav a{
+	text-decoration: none;
+}
+
+#projects-nav a:hover{
+	cursor: pointer;
+}
+
+.thumbnail img {
+	height: 184px;
+}
+
+#view-more-projects{
+	margin-bottom: 20px;
+}
+
+#categories > ul {
+	list-style: none;
+	text-decoration: none;
+	margin-bottom: 50px;
+}
+
+#categories > ul > li > a{
+	text-decoration: none;
+	color: #777;
+}
+
+#categories > ul > li {
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+#categories > ul > li > a:hover{
+	color: #000;
+	border: 1px solid rgba(119, 119, 119, 0.38);
+	background-color: #e5e5e5;
+	padding: 5px;
+	border-radius: 2px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+}
+.category {
+	text-align: none;
+}
+
+.category > label {
+	font-size: 16px;
+}
+/*alt="http://placehold.it/200x150"*/
+
+.page-header {
+	border-bottom: none;
+}
+
+.page-header > .nav-pills > li > a{
+	color: #777;
+	background-color: #fff;
+	/*border: 1px solid #e5e5e5;*/
+}
+
+.page-header > .nav-pills > li.active > a,
+.page-header > .nav-pills > li > a:hover{
+	color: #777;
+	background-color: #fff;
+	border: 1px solid #e5e5e5;
+}
